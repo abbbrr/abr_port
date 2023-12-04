@@ -47,7 +47,6 @@ export default{
     margin-top: 150px;
   }
   footer p{
-    margin-right: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 14px;
