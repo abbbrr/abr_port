@@ -26,7 +26,7 @@ export default{
     <footer>
        <div class="container">
           <div v-for="(link, index) in linkMe" :key="index" class="link">
-            <a :href="link.link"><img :src="link.img" alt="git"></a>
+            <a :href="link.link"><img :src="`/${link.img}`" alt="git"></a>
           </div>
         </div>
         <p>Copyright ©2023 All rights reserved</p>

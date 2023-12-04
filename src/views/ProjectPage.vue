@@ -4,7 +4,7 @@ import Footer from '../components/Footer.vue';
 
 export default {
     components:{
-        Footer
+        Footer,
     },
     data() {
         return {
@@ -33,7 +33,7 @@ export default {
         <div class="center-content">
             <div class="image-grid">
                 <div v-for="(image, index) in project.imageSrc" :key="index" class="image-item">
-                     <img :src="image" alt="Project Image">
+                     <img :src="`/${image}`"  alt="Project Image">
                 </div>
             </div>
         </div>
