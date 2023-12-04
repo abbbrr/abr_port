@@ -234,4 +234,24 @@ export default{
             margin-bottom: 15px;
         }
     }
+
+    @media (max-width: 568px){
+        .container{
+            /* display: flex;
+            flex-direction: column; */
+            align-items: center;
+            text-align: left;
+            width: 350px;
+            margin: 0 auto;
+            margin-bottom: 120px;
+        }
+        .second_block{
+            width: 350px;
+        }
+
+        .first_block img{
+            width: 350px;
+            height: 230px; 
+        }
+    }
 </style>
