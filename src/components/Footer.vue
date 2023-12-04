@@ -70,14 +70,24 @@ export default{
 
   @media (max-width: 568px){
     footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100px; /* Adjust the height as needed */
-    margin: 30px;
-    margin-top: 150px;
-    margin-left: 15px;
-  }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100px; /* Adjust the height as needed */
+      margin: 30px;
+      margin-top: 150px;
+      margin-left: 20px;
+    }
+    .container {
+      text-align: center;
+      display: flex;
+      flex-wrap: nowrap;
+      margin-left: 30px;
+    }
+    .link{
+      display: flex;
+      flex-direction: row;
+    }
   }
 </style>
