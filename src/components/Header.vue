@@ -178,5 +178,8 @@ header{
         box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
         margin: 25px;
     }
+    .second_card p{
+        width: 300px; 
+    }
 }
 </style>
