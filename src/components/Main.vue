@@ -112,7 +112,7 @@ main{
     color: var(--Dark-Color, #21243D);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 32px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 125% */
@@ -126,5 +126,25 @@ main{
     line-height: normal;
   }
 
+  @media (max-width: 568px) {
+
+  .first_text h1{
+    color: var(--Dark-Color, #21243D);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+  }
+  .second_text p{
+    color: var(--Dark-Color, #21243D);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: normal;
+  }
+  }
 }
 </style>
