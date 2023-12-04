@@ -159,7 +159,7 @@ header{
     }
 
     .first_card{
-    width: 350px;
+    width: 360px;
     height: 295px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -170,7 +170,7 @@ header{
     }
 
     .second_card{
-        width: 350px;
+        width: 360px;
         height: 295px;
         flex-shrink: 0;
         border-radius: 10px;
