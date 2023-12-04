@@ -67,4 +67,17 @@ export default{
     height: 50px;
     margin-right: 30px;
   }
+
+  @media (max-width: 568px){
+    footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+    margin: 30px;
+    margin-top: 150px;
+    margin-left: 15px;
+  }
+  }
 </style>
