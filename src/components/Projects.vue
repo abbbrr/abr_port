@@ -6,7 +6,7 @@ export default{
             projects: [
                 {
                     name: "Stream Wave",
-                    imageSrc: '/src/assets/app1.jpg',
+                    imageSrc: 'app1.jpg',
                     year: 2023,
                     text: "Курсовая Работа",
                     textValue: "StreamWave - это многофункциональное приложение для прослушивания подкастов и просмотра видеоконтента. Пользователи могут наслаждаться подкастами различных жанров и создавать персонализированные списки воспроизведения.",
@@ -14,7 +14,7 @@ export default{
                 },
                 {
                     name: "Geo City",
-                    imageSrc: '/src/assets/app2.png',
+                    imageSrc: 'app2.png',
                     year: 2023,
                     text: "Пэт Проект",
                     textValue: "GeoCity - это удобное приложение, позволяющее пользователям исследовать рестораны и аттракционы в различных городах мира.С помощью функции поиска пользователи могут легко находить интересные места, оценивать и оставлять отзывы.",
@@ -22,7 +22,7 @@ export default{
                 },
                 {
                     name: "Train Local",
-                    imageSrc: '/src/assets/app3.jpg',
+                    imageSrc: 'app3.jpg',
                     year: 2023,
                     text: "В разработке..",
                     textValue: "",
