@@ -143,4 +143,40 @@ header{
     }
     
 }
+
+@media (max-width: 568px){
+
+header{
+    width: auto;
+    height: 690px;
+}
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+    }
+
+    .first_card{
+    width: 350px;
+    height: 295px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    margin: 25px;
+    text-align: left;
+    }
+
+    .second_card{
+        width: 350px;
+        height: 295px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+        margin: 25px;
+    }
+}
 </style>
