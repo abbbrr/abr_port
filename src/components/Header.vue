@@ -180,6 +180,7 @@ header{
     }
     .second_card p{
         width: 300px; 
+        padding: 5px;
     }
 }
 </style>
