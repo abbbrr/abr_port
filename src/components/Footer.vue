@@ -25,9 +25,11 @@ export default{
 <template>
     <footer>
        <div class="container">
+        <div class="links">
           <div v-for="(link, index) in linkMe" :key="index" class="link">
             <a :href="link.link"><img :src="`/${link.img}`" alt="git"></a>
           </div>
+        </div>
         </div>
         <p>Copyright ©2023 All rights reserved</p>
     </footer>
@@ -39,6 +41,7 @@ export default{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100px; /* Adjust the height as needed */
     margin: 30px;
     margin-top: 150px;
@@ -53,14 +56,15 @@ export default{
     line-height: normal; 
   }
   .container {
-    text-align: center;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
   }
-  .link{
+  .links{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
   }
+ 
 
   .container img {
     width: 50px;
