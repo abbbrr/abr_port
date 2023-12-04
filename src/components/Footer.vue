@@ -43,12 +43,12 @@ export default{
     align-items: center;
     text-align: center;
     height: 100px; /* Adjust the height as needed */
-    margin: 30px;
+    /* margin: 30px; */
+    padding: 20px 0;
     margin-top: 150px;
   }
   footer p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
