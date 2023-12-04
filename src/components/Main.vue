@@ -4,7 +4,7 @@ export default {
     name: "Main",
     data(){
         return{
-           imagePath: 'men.png',
+          //  imagePath: 'men.png',
            burgerButton: 'menu.png',
         }
     }
@@ -23,7 +23,7 @@ export default {
                 </div>
             </div>
             <div class="second_container">
-                <img :src="`/${imagePath}`"  alt="Vue logo" class="men_image">
+                <img src="/men.png"  alt="Vue logo" class="men_image">
             </div>
         </div>
     </main>
