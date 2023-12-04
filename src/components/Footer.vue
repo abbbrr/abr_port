@@ -3,18 +3,17 @@ export default{
     name:"Footer",
     data(){
         return{
-            imageGit:  '/src/assets/github.png',
             linkMe: [
               {
-                img: '/src/assets/github.png',
+                img: 'github.png',
                 link: "https://github.com/abbbrr"
               },
               {
-                img: '/src/assets/insta.png',
+                img: 'insta.png',
                 link: "https://www.instagram.com/abbbrr_/"
               },
               {
-                img: '/src/assets/gmail.png',
+                img: 'gmail.png',
                 link: "ruanablaikz45@gmail.com"
               }
             ]

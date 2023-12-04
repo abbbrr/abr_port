@@ -4,8 +4,8 @@ export default {
     name: "Main",
     data(){
         return{
-           imagePath: '/src/assets/men.png',
-           burgerButton: '/src/assets/menu.png',
+           imagePath: 'men.png',
+           burgerButton: 'menu.png',
         }
     }
 }
