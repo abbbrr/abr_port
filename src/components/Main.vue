@@ -23,7 +23,7 @@ export default {
                 </div>
             </div>
             <div class="second_container">
-                <img src="/\public/men.png"  alt="Vue logo" class="men_image">
+                <img src="/public/men.png"  alt="Vue logo" class="men_image">
             </div>
         </div>
     </main>
